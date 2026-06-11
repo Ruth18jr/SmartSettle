@@ -74,6 +74,6 @@ This minimizes manual calculations and provides a clear path for settling group 
 
 ## Author
 
-Ruth Yared
+Ruth Yared Zewdie
 
 Computer Science student focused on software development, problem-solving, and AI-powered applications.
