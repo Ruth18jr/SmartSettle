@@ -1,66 +1,79 @@
 # SmartSettle
 
-SmartSettle is a Python command-line app that helps groups split shared restaurant bills and figure out who should pay whom.
+SmartSettle is a Python-based command-line application that helps groups fairly split shared expenses and calculate the simplest way to settle outstanding balances.
 
-## What Problem Does It Solve?
+## Overview
 
-Splitting a bill can get confusing when different people pay different amounts, order different items, or owe different totals. SmartSettle keeps track of each person's owed amount and paid amount, then creates a simple settlement plan so the group can balance everything out.
+Managing shared expenses can become complicated when individuals contribute different amounts or consume different portions of a bill. SmartSettle automates the process by tracking what each participant owes, what they paid, and generating an optimized settlement plan to balance all accounts.
 
-SmartSettle supports:
+## Features
 
 - Equal bill splitting
-- Usage-based splitting
-- Balance tracking
-- Optimized settlement suggestions
-- Saved transaction history
+- Usage-based expense splitting
+- Individual balance tracking
+- Optimized settlement calculations
+- Transaction history storage and retrieval
+- Simple command-line interface
 
 ## Technologies Used
 
 - Python
-- JSON for saving transaction history
-- A command-line menu for user input
+- JSON for data persistence
+- Modular software design
 
-The project is organized into separate modules:
+## Project Structure
 
-- `main.py` runs the menu and collects user input.
-- `equal_split.py` calculates equal splits.
-- `usage_split.py` calculates usage-based splits.
-- `ledger.py` stores and displays balances.
-- `optimizer.py` creates the settlement plan.
-- `history.py` saves and displays past transactions.
-- `transactions.json` stores saved transaction history.
+- `main.py` - User interface and application flow
+- `equal_split.py` - Equal expense distribution logic
+- `usage_split.py` - Usage-based expense calculations
+- `ledger.py` - Balance management and tracking
+- `optimizer.py` - Settlement optimization algorithm
+- `history.py` - Transaction history management
+- `transactions.json` - Persistent transaction storage
 
-## How To Run It
+## How To Run
 
-1. Make sure Python is installed on your computer.
+1. Ensure Python 3 is installed.
 2. Open a terminal.
-3. Go into the SmartSettle folder:
+3. Navigate to the project directory:
 
 ```bash
 cd SmartSettle
 ```
 
-4. Run the app:
+4. Run the application:
 
 ```bash
 python3 main.py
 ```
 
-5. Choose an option from the menu:
+5. Select an option from the menu:
 
-```text
-1. Equal split
-2. Usage-based split
-3. Show history
-4. Exit
-```
+- Equal Split
+- Usage-Based Split
+- Show Transaction History
+- Exit
 
-## Example Use
+## Example
 
-If one person paid more than their share and another person paid less, SmartSettle will show each person's balance and print a settlement plan, such as:
+Suppose a group shares a restaurant bill and one person pays more than their share while another pays less. SmartSettle calculates the balances and generates a settlement plan such as:
 
 ```text
 Alex pays Jordan $12.50
 ```
 
-This helps the group settle up without manually calculating every payment.
+This minimizes manual calculations and provides a clear path for settling group expenses.
+
+## Future Improvements
+
+- Graphical User Interface (GUI)
+- Receipt scanning and bill import
+- AI-powered expense insights
+- Cloud-based data storage
+- Mobile application support
+
+## Author
+
+Ruth Yared
+
+Computer Science student focused on software development, problem-solving, and AI-powered applications.
