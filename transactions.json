@@ -1,0 +1,60 @@
+[
+    {
+        "type": "Equal Split",
+        "date": "09/11/26",
+        "people": {
+            "ruth": {
+                "ordered": [],
+                "owed": 50.0,
+                "paid": 50.0,
+                "rating": null
+            },
+            "merry": {
+                "ordered": [],
+                "owed": 50.0,
+                "paid": 20.0,
+                "rating": null
+            },
+            "bini": {
+                "ordered": [],
+                "owed": 50.0,
+                "paid": 80.0,
+                "rating": null
+            }
+        }
+    },
+    {
+        "type": "Equal Split",
+        "place": "cava",
+        "date": "06/08/26",
+        "people": {
+            "ruth": {
+                "ordered": [
+                    "salad",
+                    "friut bowl",
+                    "matcha"
+                ],
+                "owed": 50.0,
+                "paid": 50.0,
+                "rating": 9.0
+            },
+            "merry": {
+                "ordered": [
+                    "egg sandwitch"
+                ],
+                "owed": 50.0,
+                "paid": 20.0,
+                "rating": 6.0
+            },
+            "bini": {
+                "ordered": [
+                    "burger",
+                    "coke"
+                ],
+                "owed": 50.0,
+                "paid": 80.0,
+                "rating": 5.0
+            }
+        }
+    }
+]
